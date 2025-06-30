@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="t.css">
 </head>
 <style>
-    #clickBtn, #clickBtn2 {
+    #clickBtn, #clickBtn2 ,#clickBtn-Huynh,
+    #clickThuong
+    #clickBtnUy {
         width: 100px;
         height: 50px;
         border-radius: 10px;
@@ -25,15 +27,40 @@
     <button id="clickBtn2">
         click
     </button>
+    <button id="clickBtnde">click</button>
+     <button id="clickBtn-Huynh">
+        click
+    </button>
+    <button id="clickThuong">Thương</button>
+    <button id="clickBtnUy">
+        click Uy
+    </button>
     <script>
         const btn = document.getElementById("clickBtn");
         btn.addEventListener("click", function() {
             alert("Xin chao");
         });
+        const btnt= document.getElementById("clickThuong");
+        btnt/addEventListener("click",function(){
+            alert("Thuong xin chao");
+        });
         const btn2 = document.getElementById("clickBtn2");
         btn2.addEventListener("click", function() {
             alert("Tam Biet");
         });
+        const btnde = document.getElementById("clickBtnde");
+        btnde.addEventListener("click", function() {
+            alert("Tam Biet");
+        });
+        const btn3 = document.getElementById("clickBtn-Huynh");
+        btn3.addEventListener("click", function() {
+            alert("Xin Chao Huỳnh Nguỹn");
+        });
+        const BtnUy = document.getElementById("clickBtnUy");
+        BtnUy.addEventListener("click", function() {
+            alert("Tam Biet Uy");
+        });
+
     </script>
 </body>
 </html>
