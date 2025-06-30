@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="t.css">
 </head>
 <style>
-    #clickBtn, #clickBtn2 ,#clickBtn-Huynh{
+    #clickBtn, #clickBtn2 ,#clickBtn-Huynh,
+    #clickThuong {
         width: 100px;
         height: 50px;
         border-radius: 10px;
@@ -29,10 +30,15 @@
      <button id="clickBtn-Huynh">
         click
     </button>
+    <button id="clickThuong">Thương</button>
     <script>
         const btn = document.getElementById("clickBtn");
         btn.addEventListener("click", function() {
             alert("Xin chao");
+        });
+        const btnt= document.getElementById("clickThuong");
+        btnt/addEventListener("click",function(){
+            alert("Thuong xin chao");
         });
         const btn2 = document.getElementById("clickBtn2");
         btn2.addEventListener("click", function() {
